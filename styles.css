@@ -1,0 +1,597 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* .carousel {
+    position: relative;
+} */
+
+.carousel-overlay {
+    /* position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; */
+    background-color: #000000;
+    opacity: 63%;
+    /* z-index: 2; */
+}
+
+.pic1 {
+    height: 84vh;
+    /* object-fit: scale-down; */
+}
+
+.pic2 {
+    height: 84vh;
+    /* object-fit: scale-down; */
+}
+
+.pic3 {
+    height: 84vh;
+    /* object-fit: scale-down; */
+}
+
+.navbar {
+    /* position: absolute; */
+    top: 64px;
+    /* left: 0; */
+    width: 100%;
+    /* z-index: 3; */
+    background-color: rgba(0, 0, 0, 0.41)
+}
+
+.fakeb {
+    padding: 15px 20px;
+    background-color: #000000;
+}
+
+.Title1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+}
+
+.Title2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.l1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.l2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.l3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.l4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.l5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.l6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.l7 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.nav-body {
+    top: 300px;
+    left: 0;
+    right: 258px;   
+}
+
+.pb1 {
+    font-family: "Playball";
+    font-size: 35px;
+    color: #BF8B1A;
+    margin-bottom: 10px;
+}
+
+.pb2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.pb3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+.body1-1 {
+    margin-top: 100px;
+}
+
+.body1img {
+    left: 370px;
+}
+
+.body-card {
+    border-color: #8D5748 !important;
+    padding: 40px 50px;
+    width: 604px;
+    /* height: 265px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 71px;
+    left:658px;
+    box-shadow: 4px 4px 95px rgba(0, 0, 0, 0.22);
+}
+
+.body-card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.bodyp1 {
+    font-family: "Playball";
+    font-size: 24px;
+    color: #BF8B1A;
+}
+
+.bodyp2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    color: #000000
+}
+
+.bodyp3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #000000
+}
+
+.carousel-overlay2 {
+    background-color: #000000;
+    opacity: 39%;
+    height: 400px;
+}
+
+.body2 {
+    margin-top: 100px;
+}
+
+.body21 {
+    height: 400px;
+}
+
+.body2info {
+    top: 160px;
+}
+
+.body2info p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.circleplay {
+    font-size: 42px;
+}
+
+.body3-1 {
+    margin-top: 100px;
+}
+
+.body3-card {
+    border-color: #BF8B1A !important;
+    padding: 40px 30px;
+    width: 595px;
+    /* height: 332px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 84px;
+    left: 270px;
+    box-shadow: 4px 4px 95px rgba(0, 0, 0, 0.22);
+}
+
+.body3-card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.body3sub {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.body3info {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.body3p1 {
+    font-family: "Playball";
+    font-size: 24px;
+    color: #BF8B1A;
+}
+
+.body3p2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 27px;
+    color: #000000
+}
+
+.body3p3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: #000000
+}
+
+.body3p4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7)
+}
+
+.body3price p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.b3button {
+    width: 161px;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: #BF8B1A;
+    border: 1px solid #BF8B1A;
+    outline: none;
+    font-size: 16px;
+}
+
+.str {
+    color: #BF8B1A;
+}
+
+.body4-card1 {
+    /* display: flex;
+    flex-direction: column; */
+    background-color: rgba(0, 0, 0, 0.88);
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.body4p1 {
+    font-family: "Playball";
+    font-size: 24px;
+    color: #BF8B1A;
+    margin-bottom: 7px;
+}
+
+.body4p2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    color: #ffff;
+    margin-bottom: 10px;
+}
+
+
+.str2 {
+    color: #BF8B1A;
+}
+
+.start {
+   
+}
+
+.start p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    border: 1px solid #BF8B1A;
+    padding: 20px;
+    width: 165px;
+
+}
+
+.plans {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.parent {
+    display: flex;
+    /* gap: 77px; */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.grid1 {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px 20px;
+}
+
+.grid2 {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px 20px;
+}
+
+.grid3 {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    padding: 40px 20px;
+}
+
+.star5 {}
+.body3sub {}
+.body5price {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: black;
+}
+.body5p3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.body5p4 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.b5button {
+    width: 161px;
+    padding: 10px 10px;
+    background-color: transparent;
+    color: #BF8B1A;
+    outline: none;
+    font-size: 16px;
+    border: none;
+}
+.body5info {}
+
+@keyframes logo {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    margin-top: 100px;
+    white-space: nowrap;
+}
+
+.logo-slide {
+    display: inline-block;
+    animation: 50s logo infinite linear;
+}
+
+.logo-slide img {
+    margin: 0 58px;
+}
+
+.footer-main {
+    margin-top: 100px;
+}
+
+.footer1 {
+    background-image: url("./images/3392\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.footer-overlay {
+    background-color: rgba(0, 0, 0, 0.57);
+}
+
+.footerimg {
+    height: 400px;
+    background-color: #BF8B1A;
+}
+
+.footer1t1 {
+    width: 253px;
+    border: 1px solid #BF8B1A;
+    padding: 15px 20px;
+    /* color: white; */
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    /* margin-bottom: 20px; */ 
+}
+
+.footer1t2 {
+    width: 253px;
+    border: 1px solid #BF8B1A;
+    padding: 15px 20px;
+    /* color: white; */
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    /* margin-bottom: 20px; */
+}
+
+.footer1t3 {
+    width: 253px;
+    border: 1px solid #BF8B1A;
+    padding: 15px 20px;
+    /* color: white; */
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    /* margin-bottom: 20px; */
+}
+
+.buttonf {
+    font-family: "Open Sans", sans-serif;
+    width: 253px;
+    padding: 10px 30px;
+    border: none;
+    background-color:rgba(191, 139, 26, 0.60);
+    outline: none;
+}
+
+.pf1 {
+    font-family: "Playball";
+    font-size: 24px;
+    color: #BF8B1A;
+    margin-bottom: 10px;
+}
+
+.pf2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    margin-bottom: 45px;
+}
+
+.boxes {
+    margin-bottom: 30px;
+}
+
+.footer2 {
+    height: 287px;
+    padding: 64px 0;
+    background-color: #000000;
+}
+
+.addr {
+    font-family: "Open Sans", sans-serif;
+    width: 106px;
+    padding: 10px;
+    background-color:rgba(191, 139, 26, 0.54);
+}
+
+.pho {
+    font-family: "Open Sans", sans-serif;
+    width: 106px;
+    padding: 10px;
+    background-color:rgba(191, 139, 26, 0.54);
+}
+
+.ema {
+    font-family: "Open Sans", sans-serif;
+    width: 106px;
+    padding: 10px;
+    background-color:rgba(191, 139, 26, 0.54);
+}
+
+.Titlef1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+}
+
+.Titlef2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .pic1 {
+        height: 58vh;
+    }
+
+    .pic2 {
+        height: 58vh;
+    }
+    
+    .pic3 {
+        height: 58vh;
+    }
+
+    .Title1 {
+        font-size: 20px;
+    }
+
+    .Title2 {
+        font-size: 10px;
+    }
+
+    .l1 {
+        font-size: 12px;
+    }
+
+    .l2 {
+        font-size: 12px;
+    }
+
+    .l3 {
+        font-size: 12px;
+    }
+
+    .l4 {
+        font-size: 12px;
+    }
+
+    .l5 {
+        font-size: 12px;
+    }
+
+    .l6 {
+        font-size: 12px;
+    }
+    
+    .l7 {
+        font-size: 12px;
+    }
+
+    .navbar {
+        top: 32px;
+        background-color: rgba(0, 0, 0, 0.60)
+    }
+
+    .nav-body {
+        top: 178px;
+    }
+
+    .pb1 {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+
+    .pb2 {
+        font-size: 20px;
+        margin-bottom: 18px;
+    }
+
+    .pb3 {
+        font-size: 14px;
+    }
+
+
+}
