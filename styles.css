@@ -120,10 +120,13 @@
 .body1 {
     margin-top: 100px;
     height: 451px;
+    position: relative;
 }
 
 .body1img {
     left: 368px;
+    position: absolute;
+
 }
 
 .body-card {
@@ -137,6 +140,7 @@
     top: 71px;
     left:928px;
     box-shadow: 4px 4px 95px rgba(0, 0, 0, 0.22);
+    position: absolute;
 }
 
 .body-card1 {
@@ -613,30 +617,33 @@
     .body1{
         margin-top: 50px;
         display: flex;
-        height: 670px;
+        height: auto;
+        flex-direction: column;
+        position: static;
+        gap: 10px;
         /* align-items: center; */
     }
 
     .body1img {
-        left: 10px;
         display: flex;
-        gap: 4px;
+        gap: 2%;
+        position: static;
     }
 
     .img1 {
-        width: 48%;
-        height: auto;
+        width: 49%;
     }
 
     .body-card {
-        left: 10px;
-        top: 300px;
-        width: 95%;
+        /* left: 2%;
+        top: 45%; */
+        width: 100%;
         height: auto;
         display: flex;
         align-items: center;
         text-align: center;
-        margin-top: 6px;
+        /* margin-top: 0px; */
+        position: static;
     }
 
 
