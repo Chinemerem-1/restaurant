@@ -117,7 +117,7 @@
     font-size: 18px;
 }
 
-.body1-1 {
+.body1 {
     margin-top: 100px;
     height: 451px;
 }
@@ -319,10 +319,9 @@
 
 .parent {
     display: flex;
-    /* gap: 77px; */
     justify-content: space-between;
     align-items: center;
-    margin-top: 60px;
+    margin-top: 100px;
 }
 
 .grid1 {
@@ -468,29 +467,33 @@
 }
 
 .buttonf {
+    margin-top: 45px;
+}
+
+.buttonf1 {
     font-family: "Open Sans", sans-serif;
     width: 253px;
     padding: 10px 30px;
     border: none;
     background-color:rgba(191, 139, 26, 0.60);
     outline: none;
+    font-size: 16px;
 }
 
 .pf1 {
     font-family: "Playball";
     font-size: 24px;
     color: #BF8B1A;
-    margin-bottom: 10px;
 }
 
 .pf2 {
     font-family: "Open Sans", sans-serif;
     font-size: 24px;
-    margin-bottom: 45px;
+    margin-top: 10px;
 }
 
 .boxes {
-    margin-bottom: 30px;
+    margin-top: 45px;
 }
 
 .footer2 {
@@ -516,7 +519,7 @@
 }
 
 .ema {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Open Sans", sans-serif;    
     width: 106px;
     padding: 10px;
     font-size: 16px;
@@ -548,18 +551,10 @@
 
 @media screen and (max-width: 768px) {
 
-    .pic1 {
-        height: 58vh;
-    }
-
-    .pic2 {
+    .pic1,.pic2,.pic3 {
         height: 58vh;
     }
     
-    .pic3 {
-        height: 58vh;
-    }
-
     .Title1 {
         font-size: 20px;
     }
@@ -568,31 +563,7 @@
         font-size: 10px;
     }
 
-    .l1 {
-        font-size: 12px;
-    }
-
-    .l2 {
-        font-size: 12px;
-    }
-
-    .l3 {
-        font-size: 12px;
-    }
-
-    .l4 {
-        font-size: 12px;
-    }
-
-    .l5 {
-        font-size: 12px;
-    }
-
-    .l6 {
-        font-size: 12px;
-    }
-    
-    .l7 {
+    .l1,.l2,.l3,.l4,.l5,.l6,.l7 {
         font-size: 12px;
     }
 
@@ -639,15 +610,17 @@
         width: 95%;
     }
 
-    .body1-1 {
+    .body1{
         margin-top: 50px;
         display: flex;
-        height: 674px;
+        height: 670px;
         /* align-items: center; */
     }
 
     .body1img {
         left: 10px;
+        display: flex;
+        gap: 6px;
     }
 
     .img1 {
@@ -656,14 +629,14 @@
     }
 
     .body-card {
-        left: 11px;
+        left: 10px;
         top: 300px;
         width: 95%;
         height: auto;
         display: flex;
         align-items: center;
         text-align: center;
-        margin-top: 10px;
+        margin-top: 6px;
     }
 
 
@@ -775,10 +748,34 @@
     margin-top: 50px;
 }
 
+.pf1 {
+    font-size: 18px;
+}
+
+.pf2 {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
 .boxes {
     display: flex;
     flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
 
+.footer1t1,.footer1t2,.footer1t3 {
+    width: 50%;
+    font-size: 16px;
+}
+
+.buttonf {
+    margin-top: 10px;
+}
+
+.buttonf1 {
+    width: 100%;
+    font-size: 18px;
 }
 
 .footer2 {
@@ -786,22 +783,26 @@
     flex-direction: column;
     align-items: center;
     height: auto;
-    gap: 60px;
+    gap: 35px;
 }
 
 .fut1 {
     display: flex;
     flex-direction: column;
+    font-size: 12px;
+
 }
 
 .fut2 {
     display: flex;
     flex-direction: column;
+    font-size: 12px;
 }
 
 .fut3 {
     display: flex;
     flex-direction: column;
+    font-size: 12px;
 }
 
 .Titlef1 {
@@ -819,5 +820,19 @@
 .middle p {
     font-size: 12px;
 }
+
+.addr {
+    font-size: 12px;
+}
+
+.pho {
+    font-size: 12px;
+}
+
+.ema {
+    font-size: 12px;
+}
+
+
 
 }
