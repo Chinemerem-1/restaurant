@@ -66,3 +66,56 @@
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
 }
+
+/* Body1 section */
+
+.body1 {
+    margin-top: 100px;
+    height: 451px;
+    position: relative;
+}
+
+.body1img {
+    left: 368px;
+    position: absolute;
+
+}
+
+.body-card {
+    border-color: #8D5748 !important;
+    padding: 40px 50px;
+    width: 604px;
+    /* height: 265px; */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    top: 110px;
+    left:928px;
+    box-shadow: 4px 4px 95px rgba(0, 0, 0, 0.22);
+    position: absolute;
+}
+
+.body-card1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.bodyp1 {
+    font-family: "Playball";
+    font-size: 24px;
+    color: #BF8B1A;
+}
+
+.bodyp2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    color: #000000
+}
+
+.bodyp3 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #000000
+}
