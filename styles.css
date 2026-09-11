@@ -58,37 +58,7 @@
     letter-spacing: 5px;
 }
 
-.l1 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-}
-
-.l2 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-}
-
-.l3 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-}
-
-.l4 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-}
-
-.l5 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-}
-
-.l6 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-}
-
-.l7 {
+.l1,.l2,.l3,.l4,.l5,.l6,.l7 {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
 }

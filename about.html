@@ -8,15 +8,60 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open Sans|Playball">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/js/all.min.js"></script>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./about.css">
 </head>
 
 <body>
-    <div class="hero-section px-0">
-        <div class="hero-section-overlay d-flex align-items-center flex-column justify-content-center h-100 px-3">
-            <p class="ph1 mb-0">5 Stars</p>
-            <p class="ph2 mb-0 fw-semibold text-white">Make a Reservation</p>
+    <header class="container-fluid hero-section px-0">
+        <div class="hero-section-overlay d-flex align-items-center flex-column justify-content-center h-100 px-3 z-1">
+            <div class="hs-text">
+                <p class="ph1 mb-0">The Venue</p>
+                <p class="ph2 mb-0 fw-semibold text-white">About</p>
+            </div>
         </div>
-    </div>
+        <nav class="navbar position-absolute start-0 w-100 z-2 navbar-expand-lg">
+            <div class="container-fluid navcon px-3 mx-0 px-md-5 mx-md-5">
+                <a class="navbar-brand ms-md- ms-0" href="#">
+                    <div class="text-center">
+                        <div class="text-white ">
+                            <p class="mb-0 Title1 fw-semibold">The Venue</p>
+                        </div>
+                        <div class="text-white">
+                            <p class="mb-0 Title2">RESTAURANT</p>
+                        </div>
+                    </div>
+                </a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse me-md- me-0 " id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-5 d-flex gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white l1" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white l2" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white l3" href="./menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white l4" href="./delivery.html">Delivery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white l5" href="./blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white l6" href="./contact.html">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="text-white border border-white border-2 l7 fakeb">
+                        <p class="mb-0">Reservations: +23450805678</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    
 </body>
 </html>
