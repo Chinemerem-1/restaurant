@@ -71,14 +71,22 @@
 
 .body1 {
     margin-top: 100px;
-    height: 451px;
+    height: 486px;
     position: relative;
 }
 
 .body1img {
     left: 368px;
     position: absolute;
+    overflow: hidden;
+}
 
+.body1img img {
+    transition: all 0.5s ease;
+}
+
+.body1img:hover img {
+    transform: scale(1.2);
 }
 
 .body-card {
@@ -118,4 +126,292 @@
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     color: #000000
+}
+
+/* Body2 section */
+
+.cards {
+    margin-top: 100px;
+}
+
+.bt1 {
+    font-family: "Playball";
+    font-size: 40px;
+    color: #BF8B1A;
+}
+
+hr {
+    border: 1px solid #BF8B1A;
+    opacity: 65%;
+}
+
+.cards1-1, .cards1-2 {
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    width: 36%;
+    height: auto;
+    gap: 25px;
+    /* angle: 0 deg; */
+    /* opacity: 1; */
+    padding: 30px;
+    /* border-radius: 10px; */
+}
+
+.cards1p1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    color: #000000
+}
+
+.cards1p2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #000000
+}
+
+/* Body3 section */
+
+.body3 {
+    margin-top: 100px;
+    /* height: 486px; */
+    /* position: relative; */
+}
+
+.chef1,.chef2,.chef3,.chef4 {
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.chef1a {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.chef1a img {
+     transition: all 0.5s ease;
+}
+
+.chef1a:hover img {
+    transform: scale(1.2);
+}
+
+.chef2a {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.chef2a img {
+     transition: all 0.5s ease;
+}
+
+.chef2a:hover img {
+    transform: scale(1.2);
+}
+
+.chef3a {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.chef3a img {
+     transition: all 0.5s ease;
+}
+
+.chef3a:hover img {
+    transform: scale(1.2);
+}
+
+.chef4a {
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.chef4a img {
+     transition: all 0.5s ease;
+}
+
+.chef4a:hover img {
+    transform: scale(1.2);
+}
+
+.pb1 {
+    font-family: "Playball";
+    font-size: 24px;
+    color: #BF8B1A;
+}
+
+.pb2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    /* margin-top: 0px; */
+}
+
+.cp1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+}
+
+.cp2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+}
+
+/* Testimonial section */
+
+.testimony {
+    margin-top: 100px;
+}
+
+.testimony {
+    background-image: url("./images/3392\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 437px;
+}
+
+/* Footer section */
+
+.footer-main {
+    margin-top: 100px;
+}
+
+.footer1 {
+    background-image: url("./images/3392\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.footer-overlay {
+    background-color: rgba(0, 0, 0, 0.57);
+}
+
+/* .footerimg {
+    height: 400px;
+    background-color: #BF8B1A;
+} */
+
+.footer1t1 {
+    width: 253px;
+    border: 1px solid #BF8B1A;
+    padding: 15px 20px;
+    /* color: white; */
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+    /* margin-bottom: 20px; */ 
+}
+
+.footer1t2 {
+    width: 253px;
+    border: 1px solid #BF8B1A;
+    padding: 15px 20px;
+    /* color: white; */
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+    /* margin-bottom: 20px; */
+}
+
+.footer1t3 {
+    width: 253px;
+    border: 1px solid #BF8B1A;
+    padding: 15px 20px;
+    /* color: white; */
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+    /* margin-bottom: 20px; */
+}
+
+.footer1t1::placeholder,.footer1t2::placeholder,.footer1t3::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.buttonf {
+    margin-top: 45px;
+}
+
+.buttonf1 {
+    font-family: "Open Sans", sans-serif;
+    width: 253px;
+    padding: 10px 30px;
+    border: none;
+    background-color:rgba(191, 139, 26, 0.60);
+    outline: none;
+    font-size: 16px;
+}
+
+.pf1 {
+    font-family: "Playball";
+    font-size: 24px;
+    color: #BF8B1A;
+}
+
+.pf2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.boxes {
+    margin-top: 45px;
+}
+
+.footer2 {
+    height: 287px;
+    padding: 64px 0;
+    background-color: #000000;
+}
+
+.addr {
+    font-family: "Open Sans", sans-serif;
+    width: 106px;
+    padding: 10px;
+    font-size: 16px;
+    background-color:rgba(191, 139, 26, 0.54);
+}
+
+.pho {
+    font-family: "Open Sans", sans-serif;
+    width: 106px;
+    padding: 10px;
+    font-size: 16px;
+    background-color:rgba(191, 139, 26, 0.54);
+}
+
+.ema {
+    font-family: "Open Sans", sans-serif;    
+    width: 106px;
+    padding: 10px;
+    font-size: 16px;
+    background-color:rgba(191, 139, 26, 0.54);
+}
+
+.Titlef1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+}
+
+.Titlef2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+
+.Copyright {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.middle p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
 }
