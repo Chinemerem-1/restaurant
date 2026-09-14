@@ -32,6 +32,12 @@
     background-color: rgba(0, 0, 0, 0.41)
 }
 
+a[aria-disabled="true"] {
+    opacity: 0.5;
+    /* pointer-events: none; */
+    /* cursor: not-allowed; */
+}
+
 .fakeb {
     padding: 15px 20px;
     background-color: #000000;
@@ -132,29 +138,25 @@
 .carousel-overlay2 {
     background-color: #000000;
     opacity: 39%;
-    height: 400px;
+    height: 100%;
 }
 
 .body2 {
     margin-top: 100px;
 }
 
-.body21 {
-    height: 400px;
-}
-
 .body2info {
-    top: 150px;
+    top: 38%;
 }
 
 .body2info p {
     font-family: "Open Sans", sans-serif;
-    font-size: 30px;
+    font-size: clamp(16px, 2.5vw, 30px);
     margin-bottom: 15px;
 }
 
 .circleplay {
-    font-size: 42px;
+    font-size: clamp(20px, 2.7vw, 42px);
 }
 
 .body3-1 {
@@ -164,6 +166,8 @@
 
 .body3img {
     left: 860px;
+    position: absolute;
+    z-index: 1;
 }
 
 .body3-card {
@@ -177,6 +181,8 @@
     top: 84px;
     left: 375px;
     box-shadow: 4px 4px 95px rgba(0, 0, 0, 0.22);
+    position: absolute;
+    z-index: 2;
 }
 
 .body3-card1 {
@@ -467,7 +473,7 @@
     background-color: #000000;
 }
 
-.addr {
+.bottom-info {
     font-family: "Open Sans", sans-serif;
     width: 106px;
     padding: 10px;
@@ -475,7 +481,7 @@
     background-color:rgba(191, 139, 26, 0.54);
 }
 
-.pho {
+/* .pho {
     font-family: "Open Sans", sans-serif;
     width: 106px;
     padding: 10px;
@@ -489,7 +495,7 @@
     padding: 10px;
     font-size: 16px;
     background-color:rgba(191, 139, 26, 0.54);
-}
+} */
 
 .Titlef1 {
     font-family: "Open Sans", sans-serif;
@@ -546,7 +552,7 @@
         /* top: 178px; */
         /* margin-top: -70px; */
         /* z-index: 2; */
-        top: 135px;
+        top: 40%
     }
 
     .pb1 {
@@ -620,59 +626,66 @@
         margin-top: 50px;
     }
 
-    .body21 {
-        height: 30vh;
-    }
-
     .img11 {
-        height: 30vh;
+        /* width: 100%; */
+        /* height: 100%; */
+        /* height: 30vh; */
         object-fit: cover;
     }
 
     .img12 {
-        height: 30vh;
+        /* width: 100%; */
+        height: 100%;
+        /* height: 30vh; */
         object-fit: cover;
     }
 
     .img13 {
-        height: 30vh;
+        /* width: 100%; */
+        height: 100%;
+        /* height: 30vh; */
         object-fit: cover;
     }
 
     .carousel-overlay2 {
     background-color: #000000;
     opacity: 39%;
-    height: 30vh;
+    /* height: 30vh; */
 }
 
 .body2info {
-    top: 70px;
+    top: 25%;
 }
 
 .body2info p {
-    font-size: 25px;
+    /* font-size: 25px; */
     margin-bottom: 10px;
 }
 
-.circleplay {
-    font-size: 38px;
-}
-
 .body3-1 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    align-items: center;
     margin-top: 50px;
-    height: 654px
 }
 
 .body3-card {
     width: 95%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* height: auto; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* align-items: center; */
     text-align: center;
-    gap: 10px;
-    top: 84px;
-    left: 11px;
+    /* gap: 10px; */
+    position: static;
+    z-index: 2;
+    margin-top: -10%;
+}
+
+.body3img {
+    position: static;
+    z-index: 1;
 }
 
 .body3-card1 {
@@ -698,14 +711,11 @@
     gap: 10px;
 }
 
-.body3img {
-    left: 0;
-    top: 0;
-}
+
 
 .body3-card {
-    top: 250px;
-    left: 10px;
+    /* top: 250px; */
+    /* left: 10px; */
 }
 
 .body4-card1 {
@@ -741,15 +751,14 @@
 }
 
 .footer1t1,.footer1t2,.footer1t3 {
-    width: 100%;
+    width: 60%;
     font-size: 16px;
 }
 
 .buttonf {
     margin-top: 10px;
-    width: 100%;
+    width: 60%;
 }
-
 .buttonf1 {
     width: 100%;
     font-size: 18px;
@@ -766,20 +775,20 @@
 .fut1 {
     display: flex;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 16px;
 
 }
 
 .fut2 {
     display: flex;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .fut3 {
     display: flex;
     flex-direction: column;
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .Titlef1 {
@@ -791,28 +800,18 @@
 }
 
 .Copyright {
-    font-size: 12px;
+    font-size: 16x;
 }
 
 .middle p {
-    font-size: 12px;
+    font-size: 16px;
 }
 
-.addr {
-    font-size: 12px;
+.bottom-info {
+    font-size: 16px;
 }
 
-.pho {
-    font-size: 12px;
-}
-
-.ema {
-    font-size: 12px;
-}
-
-
-
-}
+}    
 
 @media screen and (max-height:600px) {
     .height-el {

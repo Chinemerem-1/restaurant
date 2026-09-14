@@ -55,10 +55,10 @@
                             <a class="nav-link text-white l3" href="./menu.html">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white l4" href="./delivery.html">Delivery</a>
+                            <a class="nav-link text-white l4 disabled" aria-disabled="true" href="./delivery.html">Delivery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white l5" href="./blog.html">Blog</a>
+                            <a class="nav-link text-white l5 disabled" aria-disabled="true" href="./blog.html">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white l6" href="./contact.html">Contact</a>
@@ -98,13 +98,13 @@
 
             <div class=" carousel-inner body21">
                 <div class="carousel-item object-fit-cover active" data-bs-interval="2000">
-                    <img src="./images/Rectangle 4.png" class="d-block w-100 img-fluid img11" alt="first">
+                    <img src="./images/Rectangle 4.png" class="d-block w-100 img11" alt="first">
                 </div>
                 <div class="carousel-item object-fit-cover" data-bs-interval="2000">
-                    <img src="./images/Rectangle 5.png" class="d-block w-100 img-fluid img12" alt="second">
+                    <img src="./images/Rectangle 5.png" class="d-block w-100 img12" alt="second">
                 </div>
                 <div class="carousel-item object-fit-cover" data-bs-interval="2000">
-                    <img src="./images/Rectangle 6.png" class="d-block w-100 img-fluid img13" alt="third">
+                    <img src="./images/Rectangle 6.png" class="d-block w-100 img13" alt="third">
                 </div>
             </div>
 
@@ -116,8 +116,11 @@
     
     <section class="body3 position-relative w-100">
         <div class="container-fluid d-flex px-md-5 body3-1">
-            
-            <div class="border border-1 body3-card bg-white position-absolute z-2">
+
+            <div class="body3img">
+                <img src="./images/Rectangle 8.png" alt="firstimg" class="img-fluid">
+            </div>   
+            <div class="border border-1 body3-card bg-white">
                 <div class="body3-card1">
                     <p class="mb-0 body3p1">Something new</p>
                     <p class="mb-0 body3p2">Our Signature Dish</p>
@@ -140,9 +143,7 @@
                     <button class="d-flex justify-content-around b3button">Order Now</button> 
                 </div>    
             </div>
-            <div class="body3img position-absolute z-1">
-                <img src="./images/Rectangle 8.png" alt="firstimg" class="img-fluid">
-            </div>
+
         </div>
     </section>
     
@@ -384,7 +385,7 @@
                     <!-- <div class="footer1t1"><p class="mb-0 text-white">11/12/2025</p></div> -->
                     <input class="footer1t1 text-white" type="text" placeholder="Select date" onfocus="(this.type='date')" onblur="if(!tis.value) this.type='text'">
                     <!-- <div class="footer1t2"><p class="mb-0 text-white">11:00 AM</p></div> -->
-                    <input class="footer1t2 text-white" type="time" placeholder="Time">
+                    <input class="footer1t2 text-white" type="text" placeholder="Select time" onfocus="(this.type='time')" onblur="if(!tis.value) this.type='text'">
                     <!-- <div class="footer1t3"><p class="mb-0 text-white">2 Persons</p></div> -->
                     <input class="footer1t3 text-white" type="number" placeholder="No. of Persons">
                 </div>
@@ -408,21 +409,21 @@ template is made by Grace</p>
                 </div>
             </div>
 
-            <div class="middle text-white text-center">
+            <div class="middle text-white text-center bg">
                 <p>Lorem ipsum dolor sit amet consectetur. Nam vulputate duis at <br> viverra enim pellentesque. Et egestas turpis turpis nec aliquam <br> cursus. Et cras vitae netus augue amet.</p>
             </div>
 
             <div class="d-flex flex-column gap-4 me-md-5">
                 <div class="fut1 text-white d-flex align-items-center gap-3">
-                    <div class="addr text-center">Address</div>
+                    <div class="bottom-info text-center">Address</div>
                     <p class="mb-0">60 Raymond Opara, Lagos</p>
                 </div>
                 <div class="fut2 text-white d-flex align-items-center gap-3">
-                    <div class="pho text-center">Phone</div>
+                    <div class="bottom-info text-center">Phone</div>
                     <p class="mb-0">08038306500, 08056576686</p>
                 </div>
                 <div class="fut3 text-white d-flex align-items-center gap-3">
-                    <div class="ema text-center">Email</div>
+                    <div class="bottom-info text-center">Email</div>
                     <p class="mb-0">justmaystan@gmail.com</p>
                 </div>
             </div>

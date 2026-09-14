@@ -21,7 +21,7 @@
         </div>
         <nav class="navbar position-absolute start-0 w-100 z-2 navbar-expand-lg">
             <div class="container-fluid navcon px-3 mx-0 px-md-5 mx-md-5">
-                <a class="navbar-brand ms-md- ms-0" href="#">
+                <a class="navbar-brand ms-md- ms-0" href="./index.html">
                     <div class="text-center">
                         <div class="text-white ">
                             <p class="mb-0 Title1 fw-semibold">The Venue</p>
@@ -46,10 +46,10 @@
                             <a class="nav-link text-white l3" href="./menu.html">Menu</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white l4" href="./delivery.html">Delivery</a>
+                            <a class="nav-link text-white l4 disabled" aria-disabled="true" href="./delivery.html">Delivery</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white l5" href="./blog.html">Blog</a>
+                            <a class="nav-link text-white l5 disabled" aria-disabled="true" href="./blog.html">Blog</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white l6" href="./contact.html">Contact</a>
@@ -63,8 +63,8 @@
         </nav>
     </header>
 
-    <section class="container-fluid px-md- body1 d-flex bg-danger">
-        <div class="d-flex gap-md-4 body1img">
+    <section class="container-fluid px-md- body1 d-flex">
+        <div class="body1img">
             <img src="./images/about1.png" alt="firstimg" class="img-fluid img1">
         </div>
         <div class="border border-1 body-card bg-white">
@@ -93,7 +93,7 @@
         </div>
     </section>
 
-    <section class="container-fluid body3 px-5 d-flex flex-column gap-md-5 bg-danger">
+    <section class="container-fluid body3 px-5 d-flex flex-column gap-md-5 gap-5">
         <div class="b3s-text d-flex justify-content-center flex-column text-center align-items-center">
             <p class="pb1 mb-0">Something new</p>
             <p class="pb2 mb-0 fw-semibold">Meet the Chefs</p>
@@ -138,15 +138,15 @@
             <div id="carouselExampleIndicators" class="carousel carousel-fade" data-bs-pause="false" data-bs-ride="carousel">
                 
                 <div class="carousel-inner">
-                    <div class="carousel-item active"`data-bs-interval="1000">
+                    <div class="carousel-item active"`data-bs-interval="3000">
                          <p class="mb-3 pt2 text-white text-center">"The food was absolutely amazing, and the atmosphere was perfect for a relaxed evening. Every detail was thoughtfully taken care of. I can't wait to come back!"</p>
                          <p class="mb-0 pt21 text-center fw-bold">— JAMES COOPER, Client</p>
                     </div>
-                    <div class="carousel-item" data-bs-interval="5000">
+                    <div class="carousel-item" data-bs-interval="3000">
                          <p class="mb-3 pt3 text-white text-center">"From the beautiful venue to the delicious meals, everything exceeded our expectations. It was the perfect place to celebrate a special occasion with friends and family."</p>
                          <p class="mb-0 pt31 text-center fw-bold">— DANIEL BROOKS, Client</p>
                     </div>
-                    <div class="carousel-item" data-bs-interval="5000">
+                    <div class="carousel-item" data-bs-interval="3000">
                          <p class="mb-3 pt4 text-white text-center">"Wonderful service, incredible flavors, and such a welcoming environment. This restaurant has quickly become one of my favorite places to dine. Highly recommended!"</p>
                          <p class="mb-0 pt41 text-center fw-bold">— OLIVIA JAMES, Client</p>
                     </div>
@@ -169,9 +169,9 @@
                 <p class="pf2 mb-0 fw-semibold text-white">Make a Reservation</p>
                 <div class="boxes w-100 d-flex align-items-center justify-content-center gap-md-3">
                     <!-- <div class="footer1t1"><p class="mb-0 text-white">11/12/2025</p></div> -->
-                    <input class="footer1t1 text-white" type="date" placeholder="Date">
+                    <input class="footer1t1 text-white" type="text" placeholder="Select date" onfocus="(this.type='date')" onblur="if(!tis.value) this.type='text'">
                     <!-- <div class="footer1t2"><p class="mb-0 text-white">11:00 AM</p></div> -->
-                    <input class="footer1t2 text-white" type="time" placeholder="Time">
+                    <input class="footer1t2 text-white" type="text" placeholder="Select time" onfocus="(this.type='time')" onblur="if(!tis.value) this.type='text'">
                     <!-- <div class="footer1t3"><p class="mb-0 text-white">2 Persons</p></div> -->
                     <input class="footer1t3 text-white" type="number" placeholder="No. of Persons">
                 </div>
@@ -201,15 +201,15 @@ template is made by Grace</p>
 
             <div class="d-flex flex-column gap-4 me-md-5">
                 <div class="fut1 text-white d-flex align-items-center gap-3">
-                    <div class="addr text-center">Address</div>
+                    <div class="bottom-info text-center">Address</div>
                     <p class="mb-0">60 Raymond Opara, Lagos</p>
                 </div>
                 <div class="fut2 text-white d-flex align-items-center gap-3">
-                    <div class="pho text-center">Phone</div>
+                    <div class="bottom-info text-center">Phone</div>
                     <p class="mb-0">08038306500, 08056576686</p>
                 </div>
                 <div class="fut3 text-white d-flex align-items-center gap-3">
-                    <div class="ema text-center">Email</div>
+                    <div class="bottom-info text-center">Email</div>
                     <p class="mb-0">justmaystan@gmail.com</p>
                 </div>
             </div>
