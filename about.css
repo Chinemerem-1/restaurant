@@ -270,6 +270,67 @@ hr {
     height: 437px;
 }
 
+.testimony-overlay {
+    background-color: rgba(0, 0, 0, 0.62);
+}
+
+.pt1 {
+    font-family: "Playball";
+    font-size: 30px;
+    color: #BF8B1A;
+}
+
+.carousel-item p{
+    /* width: 100%; */
+    padding-left: 20%;
+    padding-right: 20%;
+    /* padding-bottom: 5%; */
+    padding-top: 1%;
+    background-color: #8D5748;
+}
+
+.pt21,.pt31,.pt41 {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    /* padding-top: 1%; */
+
+}
+
+.pt2,.pt3,.pt4,.pt21,.pt31,.pt41 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.custom-icon-indicators button {
+  text-indent: 0 !important;  /* Allows the icon text/glyph to show */
+  width: auto !important;      /* Removes fixed bar width */
+  height: auto !important;     /* Removes fixed bar height */
+  background-color: transparent !important; /* Removes the default grey background line */
+  border: none !important;     /* Removes default borders */
+  opacity: 0.5;                /* Standard opacity for inactive indicators */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  font-size: 1.25rem;          /* Sizing for your icon */
+  color: #fff;                 /* Icon color */
+  margin: 0 6px;               /* Spacing between your icon buttons */
+}
+
+/* Style for the active carousel slide indicator */
+.custom-icon-indicators .active {
+  opacity: 1 !important;
+  color: #BF8B1A !important;
+  transform: scale(1.2);
+}
+
+@media screen and (max-width: 768px){
+    .carousel-item p{
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-bottom: 10% !important;
+    padding-top: 2%;
+    }
+}
+
 /* Footer section */
 
 .footer-main {
@@ -414,4 +475,27 @@ hr {
 .middle p {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
+}
+
+
+
+/* Reset Bootstrap's default bar layout for the buttons */
+.custom-icon-indicators button {
+  text-indent: 0 !important;  /* Allows the icon text/glyph to show */
+  width: auto !important;      /* Removes fixed bar width */
+  height: auto !important;     /* Removes fixed bar height */
+  background-color: transparent !important; /* Removes the default grey background line */
+  border: none !important;     /* Removes default borders */
+  opacity: 0.5;                /* Standard opacity for inactive indicators */
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  font-size: 1.25rem;          /* Sizing for your icon */
+  color: #fff;                 /* Icon color */
+  margin: 0 6px;               /* Spacing between your icon buttons */
+}
+
+/* Style for the active carousel slide indicator */
+.custom-icon-indicators .active {
+  opacity: 1 !important;
+  color: #ffc107;              /* Optional: change color when active (e.g., Bootstrap warning gold) */
+  transform: scale(1.2);       /* Optional: add a slight pop effect */
 }

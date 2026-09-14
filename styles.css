@@ -742,12 +742,13 @@
 }
 
 .footer1t1,.footer1t2,.footer1t3 {
-    width: 50%;
+    width: 100%;
     font-size: 16px;
 }
 
 .buttonf {
     margin-top: 10px;
+    width: 100%;
 }
 
 .buttonf1 {
