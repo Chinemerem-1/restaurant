@@ -11,6 +11,109 @@
     <link rel="stylesheet" href="./menu.css">
 </head>
 <body>
-    
+    <header class="container-fluid hero-section px-0">
+        <div class="hero-section-overlay d-flex align-items-center flex-column justify-content-center h-100 px-3 z-1">
+            <div class="hs-text">
+                <p class="ph1 mb-0">The Venue</p>
+                <p class="ph2 mb-0 fw-semibold text-white">Contact</p>
+            </div>
+        </div>
+        <nav class="navbar position-absolute start-0 w-100 z-2 navbar-expand-lg">
+            <div class="container-fluid navcon px-3 mx-0 px-md-5 mx-md-5">
+                <a class="navbar-brand ms-md- ms-0" href="./index.html">
+                    <div class="text-center">
+                        <div class="text-white ">
+                            <p class="mb-0 Title1 fw-semibold">The Venue</p>
+                        </div>
+                        <div class="text-white">
+                            <p class="mb-0 Title2">RESTAURANT</p>
+                        </div>
+                    </div>
+                </a>
+                <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse me-md- me-0 " id="navbarNav">
+                    <ul class="navbar-nav ms-auto me-5 d-flex gap-3">
+                        <li class="nav-item">
+                            <a class="nav-link active text-white l1" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white l2" href="./about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white l3" href="./menu.html">Menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white l4 disabled" aria-disabled="true" href="./delivery.html">Delivery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white l5 disabled" aria-disabled="true" href="./blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white l6" aria-current="page" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <div class="text-white border border-white border-2 l7 fakeb">
+                        <p class="mb-0">Reservations: +23450805678</p>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="footer-main container-fluid px-0">
+        <div class="footer1 px-0">
+            <div class="footer-overlay d-flex align-items-center flex-column justify-content-center h-100 px-3">
+                <p class="pf1 mb-0">5 Stars</p>
+                <p class="pf2 mb-0 fw-semibold text-white">Make a Reservation</p>
+                <div class="boxes w-100 d-flex align-items-center justify-content-center gap-md-3">
+                    <!-- <div class="footer1t1"><p class="mb-0 text-white">11/12/2025</p></div> -->
+                    <input class="footer1t1 text-white" type="text" placeholder="Select date" onfocus="(this.type='date')" onblur="if(!tis.value) this.type='text'">
+                    <!-- <div class="footer1t2"><p class="mb-0 text-white">11:00 AM</p></div> -->
+                    <input class="footer1t2 text-white" type="text" placeholder="Select time" onfocus="(this.type='time')" onblur="if(!tis.value) this.type='text'">
+                    <!-- <div class="footer1t3"><p class="mb-0 text-white">2 Persons</p></div> -->
+                    <input class="footer1t3 text-white" type="number" placeholder="No. of Persons">
+                </div>
+                <div class="buttonf">
+                    <button class="buttonf1 text-white">Make a  Reservation</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer2 d-flex justify-content-between align-items-center px-md-5 px-2">
+            <div class="text-center d-flex align-items-center flex-column ms-md-5 logotitle">
+                <div class="text-white ">
+                    <p class="mb-0 Titlef1 fw-semibold">The Venue</p>
+                </div>
+                <div class="text-white">
+                    <p class="Titlef2">RESTAURANT</p>
+                </div>
+                <div class="text-white">
+                    <p class="mb-0 Copyright">Copyright@ 2025 All rights reserved/ This <br> 
+template is made by Grace</p>
+                </div>
+            </div>
+
+            <div class="middle text-white text-center">
+                <p>Lorem ipsum dolor sit amet consectetur. Nam vulputate duis at <br> viverra enim pellentesque. Et egestas turpis turpis nec aliquam <br> cursus. Et cras vitae netus augue amet.</p>
+            </div>
+
+            <div class="d-flex flex-column gap-4 me-md-5">
+                <div class="fut1 text-white d-flex align-items-center gap-3">
+                    <div class="bottom-info text-center">Address</div>
+                    <p class="mb-0">60 Raymond Opara, Lagos</p>
+                </div>
+                <div class="fut2 text-white d-flex align-items-center gap-3">
+                    <div class="bottom-info text-center">Phone</div>
+                    <p class="mb-0">08038306500, 08056576686</p>
+                </div>
+                <div class="fut3 text-white d-flex align-items-center gap-3">
+                    <div class="bottom-info text-center">Email</div>
+                    <p class="mb-0">justmaystan@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>

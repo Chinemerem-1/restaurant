@@ -2,3 +2,322 @@
     margin: o;
     padding: 0;
 }
+
+/* Hero section */
+
+.hero-section {
+    background-image: url("./images/3392\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;  
+    background-position: center;
+    height: 45vh;
+    position: relative;
+}
+
+.hero-section-overlay {
+    background-color: rgba(0, 0, 0, 0.63);
+}
+
+.hs-text {
+    position: absolute;
+    top: 225px;
+    text-align: center;
+}
+
+.ph1 {
+    font-family: "Playball";
+    font-size: 35px;
+    color: #BF8B1A;
+}
+
+.ph2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    margin-top: 0px;
+}
+
+/* Footer section */
+
+.footer-main {
+    margin-top: 100px;
+}
+
+.footer1 {
+    background-image: url("./images/3392\ 1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.footer-overlay {
+    background-color: rgba(0, 0, 0, 0.57);
+}
+
+/* .footerimg {
+    height: 400px;
+    background-color: #BF8B1A;
+} */
+
+.footer1t1 {
+    width: 253px;
+    border: 1px solid #BF8B1A;
+    padding: 15px 20px;
+    /* color: white; */
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+    /* margin-bottom: 20px; */ 
+}
+
+.footer1t2 {
+    width: 253px;
+    border: 1px solid #BF8B1A;
+    padding: 15px 20px;
+    /* color: white; */
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+    /* margin-bottom: 20px; */
+}
+
+.footer1t3 {
+    width: 253px;
+    border: 1px solid #BF8B1A;
+    padding: 15px 20px;
+    /* color: white; */
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    outline: none;
+    background-color: transparent;
+    /* margin-bottom: 20px; */
+}
+
+.footer1t1::placeholder,.footer1t2::placeholder,.footer1t3::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.buttonf {
+    margin-top: 45px;
+}
+
+.buttonf1 {
+    font-family: "Open Sans", sans-serif;
+    width: 253px;
+    padding: 10px 30px;
+    border: none;
+    background-color:rgba(191, 139, 26, 0.60);
+    outline: none;
+    font-size: 16px;
+}
+
+.pf1 {
+    font-family: "Playball";
+    font-size: 24px;
+    color: #BF8B1A;
+}
+
+.pf2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.boxes {
+    margin-top: 45px;
+}
+
+.footer2 {
+    height: 287px;
+    padding: 64px 0;
+    background-color: #000000;
+}
+
+.bottom-info {
+    font-family: "Open Sans", sans-serif;
+    width: 106px;
+    padding: 10px;
+    font-size: 16px;
+    background-color:rgba(191, 139, 26, 0.54);
+}
+
+.pho {
+    font-family: "Open Sans", sans-serif;
+    width: 106px;
+    padding: 10px;
+    font-size: 16px;
+    background-color:rgba(191, 139, 26, 0.54);
+}
+
+.ema {
+    font-family: "Open Sans", sans-serif;    
+    width: 106px;
+    padding: 10px;
+    font-size: 16px;
+    background-color:rgba(191, 139, 26, 0.54);
+}
+
+.Titlef1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+}
+
+.Titlef2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+}
+
+.Copyright {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+.middle p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    /* hero-section section  */
+
+   .hero-section {
+    height: 58vh;
+    }
+
+    .Title1 {
+        font-size: 20px;
+    }
+
+    .Title2 {
+        font-size: 10px;
+    }
+
+    .l1,.l2,.l3,.l4,.l5,.l6,.l7 {
+        font-size: 12px;
+    }
+
+    .navbar {
+        top: 32px;
+        background-color: rgba(0, 0, 0, 0.60)
+    }   
+
+    .hs-text {
+        top: 45%
+    }
+
+    .ph1 {
+        font-size: 25px;
+    }
+
+    .ph2 {
+        font-size: 30px;
+    }
+
+    /* footer info  */
+
+    .footer-main {
+        margin-top: 50px;
+    }
+
+    .pf1 {
+        font-size: 18px;
+    }
+
+    .pf2 {
+        font-size: 18px;
+        margin-top: 5px;
+    }
+
+    .boxes {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .footer1t1,.footer1t2,.footer1t3 {
+        width: 60%;
+        font-size: 16px;
+    }
+
+    .buttonf {
+        margin-top: 10px;
+        width: 60%;
+    }
+    .buttonf1 {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .footer2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 35px;
+    }
+
+    .fut1 {
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+
+    }
+
+    .fut2 {
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    .fut3 {
+        display: flex;
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    .Titlef1 {
+        font-size: 30px;
+    }
+
+    .Titlef2 {
+        font-size: 20px;
+    }
+
+    .Copyright {
+        font-size: 16x;
+    }
+
+    .middle p {
+        font-size: 16px;
+    }
+
+    .bottom-info {
+        font-size: 16px;
+    }
+
+    .pt2,.pt3,.pt4 {
+        /* width: 100%; */
+        padding-left: 20%;
+        padding-right: 20%;
+        /* padding-bottom: 5%; */
+        padding-top: 1%;
+        /* background-color: #8D5748; */
+    }
+
+    .pt21,.pt31,.pt41 {
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 15%;
+        /* padding-top: 1%; */
+        /* background-color: #8D5748; */
+        color: #BF8B1A;
+    }
+}
