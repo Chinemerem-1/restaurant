@@ -127,6 +127,16 @@ a[aria-disabled="true"] {
   color: white !important;
 }
 
+.formb button {
+    width: 30%;
+    padding: 10px 30px;
+    margin: 35%;
+    outline: none;
+    background-color: #BF8B1A;
+    color: white;
+    border: none;
+}
+
 
 /* Footer section */
 
