@@ -36,6 +36,98 @@
     margin-top: 0px;
 }
 
+/* Navbar section */
+
+.navbar {
+    /* position: absolute; */
+    top: 40px;
+    /* left: 0; */
+    width: 100%;
+    /* z-index: 3; */
+    background-color: rgba(0, 0, 0, 0.41)
+}
+
+a[aria-disabled="true"] {
+    opacity: 0.5;
+    /* pointer-events: none; */
+    /* cursor: not-allowed; */
+}
+
+.fakeb {
+    padding: 15px 20px;
+    background-color: #000000;
+}
+
+.Title1 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 30px;
+}
+
+.Title2 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.l1,.l2,.l3,.l4,.l5,.l6,.l7 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+}
+
+/* contact-info */
+
+.c-holder {
+    background-color: #000000;
+    margin-top: 100px;
+    padding: 70px 0;
+    height: 512px;
+}
+
+.Contact-info {
+    font-family: "Open Sans", sans-serif;
+    font-size: 24px;
+}
+
+.pc2 {
+    color:#BF8B1A;
+}
+
+.f1,.f2,.f3,.f4 {
+    outline: none !important;
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+    color: white !important;
+    border-bottom: 1px solid white !important;
+    border-radius: 0 !important;
+}
+
+.f1:focus, .f2:focus ,.f3:focus,.f4:focus {
+    background-color: transparent !important;
+    border-bottom: 1px solid white !important;
+    box-shadow: none !important;
+    color: white !important;
+}
+
+.form-floating > .form-control:focus ~ label,
+.form-floating > .form-control:not(:placeholder-shown) ~ label {
+  background-color: transparent !important; /* or your desired color */
+  color: white !important;
+}
+
+/* Removes the white background pill behind floating labels and pseudo-elements */
+.form-floating > .form-control ~ label::after,
+.form-floating > .form-control-plaintext ~ label::after {
+  background-color: transparent !important;
+}
+
+/* Ensures the label text itself stays transparent and white */
+.form-floating > label {
+  background-color: transparent !important;
+  color: white !important;
+}
+
+
 /* Footer section */
 
 .footer-main {
