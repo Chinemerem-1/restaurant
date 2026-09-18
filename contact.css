@@ -127,7 +127,7 @@ a[aria-disabled="true"] {
   color: white !important;
 }
 
-.formb button {
+.contact-but {
     width: 30%;
     padding: 10px 30px;
     margin: 35%;
@@ -135,6 +135,10 @@ a[aria-disabled="true"] {
     background-color: #BF8B1A;
     color: white;
     border: none;
+}
+
+.contact-but:hover {
+    background-color: #7c6534;
 }
 
 
