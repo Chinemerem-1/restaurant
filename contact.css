@@ -80,7 +80,7 @@ a[aria-disabled="true"] {
     background-color: #000000;
     margin-top: 100px;
     padding: 70px 0;
-    height: 512px;
+    /* height: auto; */
 }
 
 .Contact-info {
@@ -130,7 +130,8 @@ a[aria-disabled="true"] {
 .contact-but {
     width: 30%;
     padding: 10px 30px;
-    margin: 35%;
+    margin-left: auto;
+    margin-right: auto;
     outline: none;
     background-color: #BF8B1A;
     color: white;
@@ -324,6 +325,16 @@ a[aria-disabled="true"] {
 
     .ph2 {
         font-size: 30px;
+    }
+
+    /* contact-info  */
+
+    .c-holder {
+        margin-top: 50px;
+    }
+
+    .contact-but {
+        width: 50%;
     }
 
     /* footer info  */
