@@ -57,6 +57,10 @@ a[aria-disabled="true"] {
     background-color: #000000;
 }
 
+.fakeb:hover {
+    background-color: #BF8B1A;
+}
+
 .Title1 {
     font-family: "Open Sans", sans-serif;
     font-size: 30px;
@@ -71,6 +75,11 @@ a[aria-disabled="true"] {
 .l1,.l2,.l3,.l4,.l5,.l6,.l7 {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
+}
+
+/* Target Bootstrap's nav-link class on hover */
+.navbar .nav-link:hover {
+  color: #BF8B1A !important; /* Using !important helps override deep Bootstrap defaults if necessary */
 }
 
 /* Body1 section */
